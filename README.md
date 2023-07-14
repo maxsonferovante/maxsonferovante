@@ -9,9 +9,9 @@
 
 🎓 Eu estudo Desenvolvimento de Software com Foco em Back-End](https://cubos.academy/cursos/desenvolvimento-de-software-v2) na Cubos Academy(https://cubos.academy/) e Licenciatura em Filosofia na UEPA (https://www.uepa.br/)
 
-👩‍💻 Atualmente eu trabalho como [Cargo] @ [Empresa atual]
+<!--👩‍💻 Atualmente eu trabalho como [Cargo] @ [Empresa atual] -->
 
-🔎 Também sou curioso sobre com a Literatura Brasileira, Povos Originarios , Mundo do Hardware e uma outra infinidade de coisas.
+🔎 Também sou curioso sobre com a Literatura Brasileira, Povos Originarios, Mundo do Hardware e uma outra infinidade de coisas.
 
 ✒️ Eu gosto de no meu tempo livre Jogos Onlines, Leituras e Series;
 
