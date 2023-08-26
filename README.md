@@ -80,7 +80,7 @@ Substitua o usuário maxsonferovante pelo seu usuário no GitHub.
 
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Prisma](https://img.shields.io/badge/prisma-6DA55F?style=for-the-badge&logo=prisma&logoColor=purple)
+![Prisma](https://img.shields.io/badge/prisma-5D3FD3?style=for-the-badge&logo=prisma&logoColor=white)
 
 
 ---
