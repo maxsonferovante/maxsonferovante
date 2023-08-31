@@ -19,7 +19,7 @@
 
 <!--👩‍💻 Atualmente eu trabalho como [Cargo] @ [Empresa atual] -->
 
-🔎 Também sou curioso com a Poesia, a Ciência das Leis, o Mundo do Hardware e uma infinidade de coisas.
+🔎 Também sou curioso por Poesia, a Ciência e o nosso Universo, o Mundo do Hardware e uma infinidade de coisas.
 
 ✒️ Eu gosto de no meu tempo livre de assistir filmes aleatórios, jogar Dota 2 e aproveitar a companhia dos meus;
 
