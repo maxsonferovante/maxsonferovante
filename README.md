@@ -14,15 +14,15 @@
 <!-- Isso é um comentário, não irá aparecer no seu perfil
 (Abaixo você seleciona o curso que você está fazendo no momento) -->
 
-🎓 Eu estudo Desenvolvimento de Software com Foco em Back-End](https://cubos.academy/cursos/desenvolvimento-de-software-v2) @ Cubos Academy(https://cubos.academy/) e Licenciatura em Filosofia @ UEPA (https://www.uepa.br/)
+🎓 Formado em Desenvolvimento de Software com Foco em Back-End](https://cubos.academy/cursos/desenvolvimento-de-software-v2) @ Cubos Academy(https://cubos.academy/) e Licenciatura em Filosofia @ UEPA (https://www.uepa.br/)
 
 <!--👩‍💻 Atualmente eu trabalho como [Cargo] @ [Empresa atual] -->
 
-🔎 Também sou curioso por Poesia, a Ciência e o nosso Universo, o Mundo do Hardware e uma infinidade de coisas.
+🔎 Também sou curioso por Poesia, a Ciência, Filosofia e uma infinidade de coisas.
 
-✒️ Eu gosto de no meu tempo livre de assistir filmes aleatórios, jogar Dota 2 e aproveitar a companhia dos meus;
+✒️ Eu gosto de no meu tempo livre de assistir filmes aleatórios, jogar Dota 2 e aproveitar a companhia dos meus pares;
 
-📚 Lendo: Flores Para Algernon de Daniel Keyes.
+📚 Lendo: O codificador limpo: um código de conduta para programadores profissionais de Robert C. Martin
 
 <!-- (Você pode adicionar novas tecnologias insira ![Nome da Tecnologia](https://img.shields.io/badge/-[Nome da tecnologia]-[Cor do fundo]?style=flat-square&logo=[Nome da tecnologia])) -->
 <!--
