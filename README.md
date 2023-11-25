@@ -18,7 +18,7 @@
 
 <!--👩‍💻 Atualmente eu trabalho como [Cargo] @ [Empresa atual] -->
 
-🔎 Também sou curioso por Poesia, a Ciência, Filosofia e uma infinidade de coisas.
+🔎 Também sou ouvinte de Podcast de histórias aleatórias, poesia, a ciência, filosofia e uma infinidade de coisas.
 
 ✒️ Eu gosto de no meu tempo livre de assistir filmes aleatórios, jogar Dota 2 e aproveitar a companhia dos meus pares;
 
