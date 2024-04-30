@@ -9,20 +9,18 @@
 
 ### Sobre mim
 
-💻 Eu sou um Desenvolvedor de Software Back end
+💻 Eu sou um Desenvolvedor de Software Backend
 
 <!-- Isso é um comentário, não irá aparecer no seu perfil
 (Abaixo você seleciona o curso que você está fazendo no momento) -->
 
 🎓 Formado em Desenvolvimento de Software com Foco em Back-End](https://cubos.academy/cursos/desenvolvimento-de-software-v2) @ Cubos Academy(https://cubos.academy/) e Licenciatura em Filosofia @ UEPA (https://www.uepa.br/)
 
-<!--👩‍💻 Atualmente eu trabalho como [Cargo] @ [Empresa atual] -->
+👩‍💻 Atualmente eu trabalho como [Desenvolvedor Back-End Jr] @ [IN-8]
 
 🔎 Também sou ouvinte de Podcast de histórias aleatórias, poesia, a ciência, filosofia e uma infinidade de coisas.
 
 ✒️ Eu gosto de no meu tempo livre de assistir filmes aleatórios, jogar Dota 2 e aproveitar a companhia dos meus pares;
-
-📚 Lendo: O codificador limpo: um código de conduta para programadores profissionais de Robert C. Martin
 
 <!-- (Você pode adicionar novas tecnologias insira ![Nome da Tecnologia](https://img.shields.io/badge/-[Nome da tecnologia]-[Cor do fundo]?style=flat-square&logo=[Nome da tecnologia])) -->
 <!--
