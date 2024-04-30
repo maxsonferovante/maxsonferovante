@@ -14,9 +14,9 @@
 <!-- Isso é um comentário, não irá aparecer no seu perfil
 (Abaixo você seleciona o curso que você está fazendo no momento) -->
 
-🎓 Formado em Desenvolvimento de Software com Foco em Back-End](https://cubos.academy/cursos/desenvolvimento-de-software-v2) @ Cubos Academy(https://cubos.academy/) e Licenciatura em Filosofia @ UEPA (https://www.uepa.br/)
+🎓 Formado em Desenvolvimento de Software com Foco em Back-End(https://cubos.academy/cursos/desenvolvimento-de-software-v2) @ Cubos Academy(https://cubos.academy/) e Licenciatura em Filosofia @ UEPA (https://www.uepa.br/)
 
-👩‍💻 Atualmente eu trabalho como [Desenvolvedor Back-End Jr] @ [IN-8]
+👩‍💻 Atualmente eu trabalho como Desenvolvedor Back-End Jr @[IN-8](https://www.in8.com.br/)
 
 🔎 Também sou ouvinte de Podcast de histórias aleatórias, poesia, a ciência, filosofia e uma infinidade de coisas.
 
