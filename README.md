@@ -1,10 +1,12 @@
-# Oi, me chamo Maxson Almeida 👋
+# Oi, me chamo Maxson Almeida
 
-### Entre em contato comigo! 📭
+### Entre em contato comigo! 
 <div>
 <a href="https://www.linkedin.com/in/maxson-almeida/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>   
 <a href="malito: maxsonferovante@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Gmail-%230077B5?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>   
 </div>
+
+### Sobre mim! 
 
 ```python
 from dataclasses import dataclass, field
