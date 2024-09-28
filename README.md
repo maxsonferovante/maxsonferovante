@@ -15,7 +15,6 @@ from typing import List
 @dataclass
 class MaxsonAlmeida:
     name: str = "Maxson Almeida Ferovante"
-    birthdate: str = "14/10/1994"
     age: int = 29
     location: str = "Vargem Grande, Florianópolis – SC"
     phone_numbers: List[str] = field(default_factory=lambda: ["(48) 99223-8206", "(91) 98119-0375 (Recado com Giulia)"])
