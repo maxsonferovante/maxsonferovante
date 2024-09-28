@@ -13,26 +13,48 @@ from dataclasses import dataclass, field
 from typing import List
 
 @dataclass
-class Person:
-    name: str = "Maxson Almeida"
-    cargo_atual: str = "Desenvolvedor de Software Backend"
-    interesses: List[str] = field(
-        default_factory=lambda: [
-            "algoritmos",
-            "programação orientada a objetos",
-            "arquitetura-software",
-            "inteligencia artificial",
-            "filosofia",
-            "literatura",
-            "gamers"
-        ]
+class MaxsonAlmeida:
+    name: str = "Maxson Almeida Ferovante"
+    birthdate: str = "14/10/1994"
+    age: int = 29
+    location: str = "Vargem Grande, Florianópolis – SC"
+    phone_numbers: List[str] = field(default_factory=lambda: ["(48) 99223-8206", "(91) 98119-0375 (Recado com Giulia)"])
+    email: str = "maxsonferovante@gmail.com"
+    linkedin: str = "https://www.linkedin.com/in/maxson-almeida/"
+    github: str = "https://github.com/maxsonferovante"
+    objetivo: str = "Atuar como Desenvolvedor Backend"
+    
+    resumo_profissional: str = (
+        "Profissional com mais de 9 anos de experiência na área administrativa e 2 anos em "
+        "desenvolvimento de software. Atuação em desenvolvimento de sistemas web, integração e "
+        "implementação de APIs, e utilização de microsserviços. Sólidos conhecimentos em TypeScript, "
+        "NestJS, Python, FastAPI, SQLAlchemy e gerenciamento de bancos de dados relacionais e NoSQL. "
+        "Vivência em infraestrutura Cloud AWS com S3, EC2, SQS, e ELB. Habilidade em negociação e "
+        "interface com clientes."
     )
 
-    def say_hi(self):
-        return "Olá! obrigado pela visita.  👋"
+    formacao_academica: List[str] = field(default_factory=lambda: [
+        "Graduação em Análise e Desenvolvimento de Sistemas – UNAMA – Previsão de conclusão em 05/2026",
+        "Curso Técnico de Informática – IFPA – 2014"
+    ])
+    
+    experiencia_profissional: List[str] = field(default_factory=lambda: [
+        "IN8 – 12/2023 – atual: Desenvolvimento de APIs RESTful, Crawlers, automação, AWS, e CI/CD.",
+        "Prontofisio APP – 08/2024 – 09/2024: Desenvolvimento backend com Firebase, Python, PostgreSQL.",
+        "Sindicato dos Portuários do Pará e Amapá – 02/2020 – 12/2023: Desenvolvimento Full Stack e assistência administrativa."
+    ])
 
-me = Person()
-print(me.say_hi())
+    cursos_qualificacoes: List[str] = field(default_factory=lambda: [
+        "Desenvolvimento de Software com foco em Backend Node.Js – Cubos Academy – 12/2023",
+        "Excel avançado",
+        "Inglês básico para leitura e escrita"
+    ])
+
+    def say_hi(self):
+        return f"Olá! Eu sou {self.name}, um desenvolvedor backend com experiência em TypeScript, Python, e AWS."
+
+maxson = MaxsonAlmeida()
+print(maxson.say_hi())
 ```
 
 **Tecnologias e Ferramentas**
