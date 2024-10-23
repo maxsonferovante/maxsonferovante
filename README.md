@@ -15,21 +15,23 @@ from typing import List
 @dataclass
 class MaxsonAlmeida:
     name: str = "Maxson Almeida Ferovante"
-    age: int = 29
-    location: str = "Vargem Grande, Florianópolis – SC"
-    phone_numbers: List[str] = field(default_factory=lambda: ["(48) 99223-8206", "(91) 98119-0375 (Recado com Giulia)"])
+    birth_date: str = "14/10/1994"
+    age: int = 30
+    location: str = "Florianópolis – SC"
+    phone_numbers: List[str] = field(default_factory=lambda: ["(48) 99223-8206"])
     email: str = "maxsonferovante@gmail.com"
     linkedin: str = "https://www.linkedin.com/in/maxson-almeida/"
     github: str = "https://github.com/maxsonferovante"
     objetivo: str = "Atuar como Desenvolvedor Backend"
     
     resumo_profissional: str = (
-        "Profissional com mais de 9 anos de experiência na área administrativa e 2 anos em "
-        "desenvolvimento de software. Atuação em desenvolvimento de sistemas web, integração e "
-        "implementação de APIs, e utilização de microsserviços. Sólidos conhecimentos em TypeScript, "
-        "NestJS, Python, FastAPI, SQLAlchemy e gerenciamento de bancos de dados relacionais e NoSQL. "
-        "Vivência em infraestrutura Cloud AWS com S3, EC2, SQS, e ELB. Habilidade em negociação e "
-        "interface com clientes."
+        "Profissional com mais de 9 anos de experiência na área administrativa e 2 anos "
+        "em desenvolvimento de software, com ênfase em backend utilizando Python. Atuação em "
+        "desenvolvimento de sistemas web e microsserviços, com foco em integração e implementação "
+        "de APIs RESTful usando frameworks como FastAPI, Flask e Django. Conhecimento em SQLAlchemy, "
+        "bancos de dados relacionais como PostgreSQL e MySQL, além de vivência com bancos NoSQL. "
+        "Experiência com infraestrutura em nuvem AWS (S3, EC2, SQS, ELB). Habilidade em trabalhar de "
+        "forma colaborativa com equipes multifuncionais."
     )
 
     formacao_academica: List[str] = field(default_factory=lambda: [
@@ -38,9 +40,10 @@ class MaxsonAlmeida:
     ])
     
     experiencia_profissional: List[str] = field(default_factory=lambda: [
-        "IN8 – 12/2023 – atual: Desenvolvimento de APIs RESTful, Crawlers, automação, AWS, e CI/CD.",
+        "IN8 – 12/2023 – atual: Desenvolvimento de APIs RESTful, microsserviços, e automação na AWS.",
+        "API Potiguar – 09/2024 – 10/2024: Consulta de infrações de veículos usando FastAPI, Celery e Redis.",
         "Prontofisio APP – 08/2024 – 09/2024: Desenvolvimento backend com Firebase, Python, PostgreSQL.",
-        "Sindicato dos Portuários do Pará e Amapá – 02/2020 – 12/2023: Desenvolvimento Full Stack e assistência administrativa."
+        "Sindicato dos Portuários do Pará e Amapá – 02/2020 – 12/2023: Desenvolvimento Full Stack com Python e Django."
     ])
 
     cursos_qualificacoes: List[str] = field(default_factory=lambda: [
@@ -50,7 +53,7 @@ class MaxsonAlmeida:
     ])
 
     def say_hi(self):
-        return f"Olá! Eu sou {self.name}, um desenvolvedor backend com experiência em TypeScript, Python, e AWS."
+        return f"Olá! Eu sou {self.name}, um desenvolvedor backend com experiência em Python, FastAPI, e AWS."
 
 maxson = MaxsonAlmeida()
 print(maxson.say_hi())
@@ -72,9 +75,8 @@ print(maxson.say_hi())
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) 
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) 
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?logo=pytest)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![ExpressJS](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Fastify](https://img.shields.io/badge/fastify-202020?style=for-the-badge&logo=fastify&logoColor=white)
 ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 
@@ -85,6 +87,8 @@ print(maxson.say_hi())
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-13aa52?style=for-the-badge&logo=mongodb&logoColor=white)
 
 **Plataform**
 
