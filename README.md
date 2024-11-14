@@ -106,4 +106,10 @@ print(maxson.say_hi())
 
 [![](https://visitcount.itsvg.in/api?id=maxsonferovante&icon=2&color=1)](https://visitcount.itsvg.in)
 
+<div align="left">
+  
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maxsonferovante&layout=compact&hide_border=true&title_color=8f00ff&text_color=ffffff&bg_color=0d1117" />
+  
+ </div>
+
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
