@@ -24,36 +24,8 @@ class MaxsonAlmeida:
     github: str = "https://github.com/maxsonferovante"
     objetivo: str = "Atuar como Desenvolvedor Backend"
     
-    resumo_profissional: str = (
-        "Profissional com mais de 9 anos de experiência na área administrativa e 2 anos "
-        "em desenvolvimento de software, com ênfase em backend utilizando Python. Atuação em "
-        "desenvolvimento de sistemas web e microsserviços, com foco em integração e implementação "
-        "de APIs RESTful usando frameworks como FastAPI, Flask e Django. Conhecimento em SQLAlchemy, "
-        "bancos de dados relacionais como PostgreSQL e MySQL, além de vivência com bancos NoSQL. "
-        "Experiência com infraestrutura em nuvem AWS (S3, EC2, SQS, ELB). Habilidade em trabalhar de "
-        "forma colaborativa com equipes multifuncionais."
-    )
-
-    formacao_academica: List[str] = field(default_factory=lambda: [
-        "Graduação em Análise e Desenvolvimento de Sistemas – UNAMA – Previsão de conclusão em 05/2026",
-        "Curso Técnico de Informática – IFPA – 2014"
-    ])
-    
-    experiencia_profissional: List[str] = field(default_factory=lambda: [
-        "IN8 – 12/2023 – atual: Desenvolvimento de APIs RESTful, microsserviços, e automação na AWS.",
-        "API Potiguar – 09/2024 – 10/2024: Consulta de infrações de veículos usando FastAPI, Celery e Redis.",
-        "Prontofisio APP – 08/2024 – 09/2024: Desenvolvimento backend com Firebase, Python, PostgreSQL.",
-        "Sindicato dos Portuários do Pará e Amapá – 02/2020 – 12/2023: Desenvolvimento Full Stack com Python e Django."
-    ])
-
-    cursos_qualificacoes: List[str] = field(default_factory=lambda: [
-        "Desenvolvimento de Software com foco em Backend Node.Js – Cubos Academy – 12/2023",
-        "Excel avançado",
-        "Inglês básico para leitura e escrita"
-    ])
-
     def say_hi(self):
-        return f"Olá! Eu sou {self.name}, um desenvolvedor backend com experiência em Python, FastAPI, e AWS."
+        return f"Olá! Eu sou {self.name}, um desenvolvedor backend com experiência em Python, FastAPI e Django"
 
 maxson = MaxsonAlmeida()
 print(maxson.say_hi())
