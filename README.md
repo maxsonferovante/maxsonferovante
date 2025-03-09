@@ -25,7 +25,7 @@ class MaxsonAlmeida:
     objetivo: str = "Atuar como Desenvolvedor Backend"
     
     def say_hi(self):
-        return f"Olá! Eu sou {self.name}, um desenvolvedor backend com experiência em Python, FastAPI e Django"
+        return f"Olá! Eu sou {self.name}, um desenvolvedor backend com experiência em Python e Java"
 
 maxson = MaxsonAlmeida()
 print(maxson.say_hi())
@@ -52,7 +52,7 @@ print(maxson.say_hi())
 
 **Tests**
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?logo=pytest)
+![Pytest](https://img.shields.io/badge/pytest-%23ffffff.svg?style=for-the-badge&logo=pytest&logoColor=2f9fe3)
 
 **Database**
 
