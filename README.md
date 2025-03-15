@@ -9,32 +9,87 @@
 ### Sobre mim! 
 
 ```java
-public class MaxsonAlmeida {
+interface Desenvolvedor {
+    void apresentarAtuacao();
+    void escreverCodigo();
+}
+class Endereco {
+    private String cidade;
+    private String estado;
 
-    // Atributos
-    private String name = "Maxson Almeida Ferovante";
+    public Endereco(String cidade, String estado) {
+        this.cidade = cidade;
+        this.estado = estado;
+    }
+
+    @Override
+    public String toString() {
+        return cidade + " – " + estado;
+    }
+}
+
+class Contato {
+    private String[] telefones;
+    private String email;
+
+    public Contato(String[] telefones, String email) {
+        this.telefones = telefones;
+        this.email = email;
+    }
+
+    public void exibirContatos() {
+        System.out.println("📞 Telefone(s): " + String.join(", ", telefones));
+        System.out.println("📧 E-mail: " + email);
+    }
+}
+
+class RedesSociais {
+    private String linkedin;
+    private String github;
+
+    public RedesSociais(String linkedin, String github) {
+        this.linkedin = linkedin;
+        this.github = github;
+    }
+
+    public void exibirRedes() {
+        System.out.println("🔗 LinkedIn: " + linkedin);
+        System.out.println("💻 GitHub: " + github);
+    }
+}
+public class MaxsonAlmeida implements Desenvolvedor {
+
+   private String name = "Maxson Almeida Ferovante";
     private String birthDate = "14/10/1994";
     private int age = 30;
-    private String location = "Florianópolis – SC";
-    private String[] phoneNumbers = {"(48) 99223-8206"};
-    private String email = "maxsonferovante@gmail.com";
-    private String linkedin = "https://www.linkedin.com/in/maxson-almeida/";
-    private String github = "https://github.com/maxsonferovante";
-    private String objetivo = "Atuar como Desenvolvedor Backend";
-
-    // Método para apresentação
+    private Endereco endereco = new Endereco("Florianópolis", "SC");
+    private Contato contato = new Contato(new String[]{"(48) 99223-8206"}, "maxsonferovante@gmail.com");
+    private RedesSociais redes = new RedesSociais(
+            "https://www.linkedin.com/in/maxson-almeida/",
+            "https://github.com/maxsonferovante"
+    );
     public void sayHi() {
         System.out.println("Olá! Eu sou " + name + ", um desenvolvedor backend com experiência em Python e Java.");
     }
 
-    // Método principal
+    @Override
+    public void apresentarAtuacao() {
+        System.out.println("💻 Atuo como Desenvolvedor Backend, com foco em APIs, Microsserviços e soluções escaláveis.");
+    }
+
+    @Override
+    public void escreverCodigo() {
+        System.out.println("⌨️ Escrevendo código limpo, eficiente e escalável usando boas práticas de engenharia de software.");
+    }
+
     public static void main(String[] args) {
         MaxsonAlmeida maxson = new MaxsonAlmeida();
         maxson.sayHi();
-        System.out.println("📍 Localização: " + maxson.location);
-        System.out.println("📧 E-mail: " + maxson.email);
-        System.out.println("🔗 LinkedIn: " + maxson.linkedin);
-        System.out.println("💻 GitHub: " + maxson.github);
+        maxson.apresentarAtuacao();
+        maxson.escreverCodigo();
+        System.out.println("📍 Localização: " + maxson.endereco);
+        maxson.contato.exibirContatos();
+        maxson.redes.exibirRedes();
     }
 }
 ```
