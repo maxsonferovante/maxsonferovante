@@ -8,27 +8,35 @@
 
 ### Sobre mim! 
 
-```python
-from dataclasses import dataclass, field
-from typing import List
+```java
+public class MaxsonAlmeida {
 
-@dataclass
-class MaxsonAlmeida:
-    name: str = "Maxson Almeida Ferovante"
-    birth_date: str = "14/10/1994"
-    age: int = 30
-    location: str = "Florianópolis – SC"
-    phone_numbers: List[str] = field(default_factory=lambda: ["(48) 99223-8206"])
-    email: str = "maxsonferovante@gmail.com"
-    linkedin: str = "https://www.linkedin.com/in/maxson-almeida/"
-    github: str = "https://github.com/maxsonferovante"
-    objetivo: str = "Atuar como Desenvolvedor Backend"
-    
-    def say_hi(self):
-        return f"Olá! Eu sou {self.name}, um desenvolvedor backend com experiência em Python e Java"
+    // Atributos
+    private String name = "Maxson Almeida Ferovante";
+    private String birthDate = "14/10/1994";
+    private int age = 30;
+    private String location = "Florianópolis – SC";
+    private String[] phoneNumbers = {"(48) 99223-8206"};
+    private String email = "maxsonferovante@gmail.com";
+    private String linkedin = "https://www.linkedin.com/in/maxson-almeida/";
+    private String github = "https://github.com/maxsonferovante";
+    private String objetivo = "Atuar como Desenvolvedor Backend";
 
-maxson = MaxsonAlmeida()
-print(maxson.say_hi())
+    // Método para apresentação
+    public void sayHi() {
+        System.out.println("Olá! Eu sou " + name + ", um desenvolvedor backend com experiência em Python e Java.");
+    }
+
+    // Método principal
+    public static void main(String[] args) {
+        MaxsonAlmeida maxson = new MaxsonAlmeida();
+        maxson.sayHi();
+        System.out.println("📍 Localização: " + maxson.location);
+        System.out.println("📧 E-mail: " + maxson.email);
+        System.out.println("🔗 LinkedIn: " + maxson.linkedin);
+        System.out.println("💻 GitHub: " + maxson.github);
+    }
+}
 ```
 
 **Tecnologias e Ferramentas**
