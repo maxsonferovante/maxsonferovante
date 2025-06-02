@@ -1,4 +1,4 @@
-# Oi, me chamo Maxson Almeida
+# Oi, me chamo Maxson Almeida,um desenvolvedor backend com sólida experiência em Python e Java. 
 
 ### Entre em contato comigo! 
 <div>
@@ -13,6 +13,7 @@ interface Desenvolvedor {
     void apresentarAtuacao();
     void escreverCodigo();
 }
+
 class Endereco {
     private String cidade;
     private String estado;
@@ -57,9 +58,10 @@ class RedesSociais {
         System.out.println("💻 GitHub: " + github);
     }
 }
+
 public class MaxsonAlmeida implements Desenvolvedor {
 
-   private String name = "Maxson Almeida Ferovante";
+    private String name = "Maxson Almeida Ferovante";
     private String birthDate = "14/10/1994";
     private int age = 30;
     private Endereco endereco = new Endereco("Florianópolis", "SC");
@@ -68,6 +70,7 @@ public class MaxsonAlmeida implements Desenvolvedor {
             "https://www.linkedin.com/in/maxson-almeida/",
             "https://github.com/maxsonferovante"
     );
+
     public void sayHi() {
         System.out.println("Olá! Eu sou " + name + ", um desenvolvedor backend com experiência em Python e Java.");
     }
