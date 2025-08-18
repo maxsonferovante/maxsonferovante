@@ -11,7 +11,7 @@
 ```python
 from abc import ABC, abstractmethod
 from typing import List
-from pydantic import BaseModel, EmailStr, validator
+from pydantic import BaseModel, EmailStr
 from datetime import date
 
 
