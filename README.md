@@ -8,93 +8,90 @@
 
 ### Sobre mim! 
 
-```java
-interface Desenvolvedor {
-    void apresentarAtuacao();
-    void escreverCodigo();
-}
+```python
+from abc import ABC, abstractmethod
+from typing import List
+from pydantic import BaseModel, EmailStr, validator
+from datetime import date
 
-class Endereco {
-    private String cidade;
-    private String estado;
 
-    public Endereco(String cidade, String estado) {
-        this.cidade = cidade;
-        this.estado = estado;
-    }
+class Desenvolvedor(ABC):
+        
+    @abstractmethod
+    def apresentar_atuacao(self) -> None:
+        pass
+    
+    @abstractmethod
+    def escrever_codigo(self) -> None:
+        pass
 
-    @Override
-    public String toString() {
-        return cidade + " – " + estado;
-    }
-}
 
-class Contato {
-    private String[] telefones;
-    private String email;
+class Endereco(BaseModel):
+    cidade: str
+    estado: str
+    
+    def __str__(self) -> str:
+        return f"{self.cidade} – {self.estado}"
 
-    public Contato(String[] telefones, String email) {
-        this.telefones = telefones;
-        this.email = email;
-    }
 
-    public void exibirContatos() {
-        System.out.println("📞 Telefone(s): " + String.join(", ", telefones));
-        System.out.println("📧 E-mail: " + email);
-    }
-}
+class Contato(BaseModel):
+    telefones: List[str]
+    email: EmailStr
+    
+    def exibir_contatos(self) -> None:
+        print(f"📞 Telefone(s): {', '.join(self.telefones)}")
+        print(f"📧 E-mail: {self.email}")
 
-class RedesSociais {
-    private String linkedin;
-    private String github;
 
-    public RedesSociais(String linkedin, String github) {
-        this.linkedin = linkedin;
-        this.github = github;
-    }
+class RedesSociais(BaseModel):
+    linkedin: str
+    github: str
+    
+    def exibir_redes(self) -> None:
+        # Criando links clicáveis para markdown
+        linkedin_link = f"[LinkedIn]({self.linkedin})"
+        github_link = f"[GitHub]({self.github})"
+        
+        print(f"🔗 {linkedin_link}")
+        print(f"💻 {github_link}")
 
-    public void exibirRedes() {
-        System.out.println("🔗 LinkedIn: " + linkedin);
-        System.out.println("💻 GitHub: " + github);
-    }
-}
 
-public class MaxsonAlmeida implements Desenvolvedor {
+class MaxsonAlmeida(Desenvolvedor):
+    
+    def __init__(self):
+        self.name = "Maxson Almeida Ferovante"
+        self.birth_date = "14/10/1994"
+        self.age = 30
+        
+        self.endereco = Endereco(cidade="Florianópolis", estado="SC")
+        self.contato = Contato(
+            telefones=["(48) 99223-8206"], 
+            email="maxsonferovante@gmail.com"
+        )
+        self.redes = RedesSociais(
+            linkedin="https://www.linkedin.com/in/maxson-almeida/",
+            github="https://github.com/maxsonferovante"
+        )
+    
+    def say_hi(self) -> None:
+        print(f"Olá! Eu sou {self.name}, um desenvolvedor backend com experiência em Python e Java.")
+    
+    def apresentar_atuacao(self) -> None:
+        print("💻 Atuo como Desenvolvedor Backend, com foco em APIs, Microsserviços e soluções escaláveis.")
+    
+    def escrever_codigo(self) -> None:
+        print("⌨️ Escrevendo código limpo, eficiente e escalável usando boas práticas de engenharia de software.")
 
-    private String name = "Maxson Almeida Ferovante";
-    private String birthDate = "14/10/1994";
-    private int age = 30;
-    private Endereco endereco = new Endereco("Florianópolis", "SC");
-    private Contato contato = new Contato(new String[]{"(48) 99223-8206"}, "maxsonferovante@gmail.com");
-    private RedesSociais redes = new RedesSociais(
-            "https://www.linkedin.com/in/maxson-almeida/",
-            "https://github.com/maxsonferovante"
-    );
 
-    public void sayHi() {
-        System.out.println("Olá! Eu sou " + name + ", um desenvolvedor backend com experiência em Python e Java.");
-    }
-
-    @Override
-    public void apresentarAtuacao() {
-        System.out.println("💻 Atuo como Desenvolvedor Backend, com foco em APIs, Microsserviços e soluções escaláveis.");
-    }
-
-    @Override
-    public void escreverCodigo() {
-        System.out.println("⌨️ Escrevendo código limpo, eficiente e escalável usando boas práticas de engenharia de software.");
-    }
-
-    public static void main(String[] args) {
-        MaxsonAlmeida maxson = new MaxsonAlmeida();
-        maxson.sayHi();
-        maxson.apresentarAtuacao();
-        maxson.escreverCodigo();
-        System.out.println("📍 Localização: " + maxson.endereco);
-        maxson.contato.exibirContatos();
-        maxson.redes.exibirRedes();
-    }
-}
+if __name__ == "__main__":
+    maxson = MaxsonAlmeida()
+    
+    maxson.say_hi()
+    maxson.apresentar_atuacao()
+    maxson.escrever_codigo()
+    print(f"📍 Localização: {maxson.endereco}")
+    maxson.contato.exibir_contatos()
+    maxson.redes.exibir_redes()
 ```
 
 **Tecnologias e Ferramentas**
