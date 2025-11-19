@@ -64,4 +64,7 @@
   
  </div>
 
+[![Pudim Score](https://pudim.dev/badge/[maxsonferovante])](https://pudim.dev/calculator/[maxsonferovante])
+
+
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
