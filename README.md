@@ -1,6 +1,6 @@
 ## About
 
-Backend Software Engineer at Itaú Unibanco, focused on building APIs and distributed systems. I work with Python (FastAPI), Java (Spring Boot), AWS, and event-driven architectures, and explore Rust through personal projects.
+Backend Software Engineer at Itaú Unibanco. I design and build APIs and backend services, including asynchronous workflows and integrations across data stores and cloud services. I focus on clear interfaces, maintainable code, and reliable systems. Python and Java are part of my day-to-day toolkit, while Rust is an area I explore through personal projects.
 
 ## Tecnologias
 
