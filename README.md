@@ -26,7 +26,7 @@ I enjoy exploring technologies and sharing what I learn. Every new insight broad
 
 ## Open source and community
 
-[Python Floripa's Certified Builder](https://github.com/PythonFloripa/py-certify-infra) brings together infrastructure and services for certificate generation. I also maintain [a fork of the generator](https://github.com/maxsonferovante/certified_builder_py). [Go Quality Gate](https://github.com/dmux/go-quality-gate) is an open-source code quality tool from dmux.
+[Python Floripa's Certified Builder](https://github.com/PythonFloripa/py-certify-infra) brings together infrastructure and services for certificate generation. [Go Quality Gate](https://github.com/dmux/go-quality-gate) is an open-source code quality tool from dmux.
 
 Explore more projects, case studies and notes in my [portfolio](https://maxsonferovante.github.io/).
 
@@ -60,6 +60,6 @@ Gosto de explorar tecnologias e compartilhar o que aprendo. Cada novo conhecimen
 
 ## Comunidade e código aberto
 
-O [Certified Builder da Python Floripa](https://github.com/PythonFloripa/py-certify-infra) reúne infraestrutura e serviços para geração de certificados. Também mantenho [um fork do gerador](https://github.com/maxsonferovante/certified_builder_py). O [Go Quality Gate](https://github.com/dmux/go-quality-gate) é uma ferramenta de qualidade de código aberto da dmux.
+O [Certified Builder da Python Floripa](https://github.com/PythonFloripa/py-certify-infra) reúne infraestrutura e serviços para geração de certificados. O [Go Quality Gate](https://github.com/dmux/go-quality-gate) é uma ferramenta de qualidade de código aberto da dmux.
 
 Confira mais projetos, estudos de caso e notas no [portfólio](https://maxsonferovante.github.io/).
