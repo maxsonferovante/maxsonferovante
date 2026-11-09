@@ -11,6 +11,7 @@ I enjoy exploring technologies and sharing what I learn. Every new insight broad
 
 ## Featured projects
 
+- **[Euterpe](https://github.com/maxsonferovante/euterpe-local-transcription)** — a local-first Rust MCP server for video conversion and audio transcription with whisper.cpp.
 - **[Episodic](https://github.com/maxsonferovante/episodic-app-web)** — a series tracker with a [serverless Rust backend](https://github.com/maxsonferovante/episodic-app-backend) and [AWS infrastructure](https://github.com/maxsonferovante/episodic-app-infra-cloud).
 - **[Sonic Route](https://github.com/maxsonferovante/sonic-route)** — a native prototype for per-app audio control and routing on macOS.
 - **[Alpaca ExtFS](https://github.com/maxsonferovante/alpaca-extfs-for-mac)** — an Ext4 driver for macOS built with Rust and macFUSE.
@@ -45,6 +46,7 @@ Gosto de explorar tecnologias e compartilhar o que aprendo. Cada novo conhecimen
 
 ## Projetos em destaque
 
+- **[Euterpe](https://github.com/maxsonferovante/euterpe-local-transcription)** — servidor MCP em Rust para conversão de vídeo e transcrição local de áudio com whisper.cpp.
 - **[Episodic](https://github.com/maxsonferovante/episodic-app-web)** — aplicativo para acompanhar séries, com [backend serverless em Rust](https://github.com/maxsonferovante/episodic-app-backend) e [infraestrutura AWS](https://github.com/maxsonferovante/episodic-app-infra-cloud).
 - **[Sonic Route](https://github.com/maxsonferovante/sonic-route)** — protótipo nativo para controle e roteamento de áudio por aplicação no macOS.
 - **[Alpaca ExtFS](https://github.com/maxsonferovante/alpaca-extfs-for-mac)** — driver Ext4 para macOS, desenvolvido com Rust e macFUSE.
